@@ -94,3 +94,15 @@ $(document).on("click", '[data-toggle="lightbox"]', function(event) {
   event.preventDefault();
   $(this).ekkoLightbox();
 });
+
+$(function(){
+  $("#couple").load("couple.html"); 
+});
+
+$(function(){
+  $("#events").load("event.html"); 
+});
+
+$(function(){
+  $("#gallery").load("gallery.html"); 
+});
