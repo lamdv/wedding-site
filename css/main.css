@@ -116,6 +116,13 @@ body {
     -moz-column-count: 1;
          column-count: 1; } }
 
+/* Wedding Party Style */
+.bg-light {
+  background-color: #dde6eb !important; }
+
+.bg-dark {
+  background-color: lavenderblush !important; }
+
 /* RSVP Style */
 .wed-rsvp-detail {
   /* background: url("../images/rsvp-img.jpg") no-repeat center center; */
