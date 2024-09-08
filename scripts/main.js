@@ -47,10 +47,10 @@ $("a.smooth-scroll").click(function(event) {
 // Photo Filter
 var activeFilter = "all";
 
-$(".ww-filter-button").on("click", function(e) {
+$(".wed-filter-button").on("click", function(e) {
   // remove btn-primary from all buttons first
-  $(".ww-filter-button").removeClass("btn-primary");
-  $(".ww-filter-button").addClass("btn-outline-primary");
+  $(".wed-filter-button").removeClass("btn-primary");
+  $(".wed-filter-button").addClass("btn-outline-primary");
 
   // add btn-primary to active button
   var button = $(this);
@@ -66,7 +66,7 @@ function filterItems(filter) {
   }
 
   activeFilter = filter;
-  $(".ww-gallery .card").each(function() {
+  $(".wed-gallery .card").each(function() {
     var card = $(this);
     var groups = card.data("groups");
     var show = false;
@@ -112,20 +112,8 @@ $(function(){
   $("#rsvp").load("form.html"); 
 });
 
-$("form").submit(function () {
 
-  var this_master = $(this);
-
-  this_master.find('input[type="checkbox"]').each( function () {
-      var checkbox_this = $(this);
-
-
-      if( checkbox_this.is(":checked") == true ) {
-          checkbox_this.attr('value','1');
-      } else {
-          checkbox_this.prop('checked',true);
-          //DONT' ITS JUST CHECK THE CHECKBOX TO SUBMIT FORM DATA    
-          checkbox_this.attr('value','0');
-      }
-  })
-})
+function thanks() {
+  alert("Cảm ơn bạn đã đến dự đám cưới của chúng mình! Hi vọng được gặp mọi người!");
+  return false;
+}

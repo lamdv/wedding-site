@@ -2,41 +2,41 @@ body {
   font-family: "Dosis", sans-serif; }
 
 /* Home Page Style */
-.ww-home-page {
+.wed-home-page {
   background: url("../images/home-img.jpg") no-repeat center center;
   background-size: cover;
-  background-position: 50% 30%;
+  background-position: 40% 30%;
   height: 100vh;
   min-height: 480px;
   max-height: 1080px; 
 }
-  .ww-home-page .ww-wedding-announcement {
+  .wed-home-page .wed-wedding-announcement {
     width: 100%;
     max-width: 1600px;
     margin: 0 auto;
-    height: 100%;
+    height: 70%;
     color: #fff;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
     letter-spacing: 2px; }
-    .ww-home-page .ww-wedding-announcement .ww-announcement-container {
-      max-width: 600px;
+    .wed-home-page .wed-wedding-announcement .wed-announcement-container {
+      max-width: 400px;
       text-align: center;
       margin-left: 0;
       z-index: 999; }
-    .ww-home-page .ww-wedding-announcement img {
+    .wed-home-page .wed-wedding-announcement img {
       max-height: 350px;
       width: auto; }
       @media (max-width: 480px) {
-        .ww-home-page .ww-wedding-announcement img {
+        .wed-home-page .wed-wedding-announcement img {
           max-height: 250px;
           width: auto; } }
-    .ww-home-page .ww-wedding-announcement .ww-couple-name {
+    .wed-home-page .wed-wedding-announcement .wed-couple-name {
       font-size: 70px; }
       @media (max-width: 576px) {
-        .ww-home-page .ww-wedding-announcement .ww-couple-name {
+        .wed-home-page .wed-wedding-announcement .wed-couple-name {
           font-size: 50px; } }
 
-.ww-home-page:before {
+.wed-home-page:before {
   content: "";
   /* background-color: rgba(245, 138, 119, 0.2); */
   width: 100%;
@@ -49,7 +49,7 @@ body {
   top: 0; }
 
 /* Nav Bar Style */
-.ww-nav-bar .heart {
+.wed-nav-bar .heart {
   fill: #f26147;
   position: relative;
   top: 2px;
@@ -73,24 +73,24 @@ body {
   100% {
     transform: scale(1); } }
 
-.ww-nav-bar .nav-item {
+.wed-nav-bar .nav-item {
   font-size: 18px;
   padding: 5px 0 5px 16px;
   font-weight: 500; }
 
 /* Wedding Event Style */
-.ww-wedding-event ul {
+.wed-wedding-event ul {
   list-style: none;
   padding-left: 0; }
 
-.ww-wedding-event a.map {
+.wed-wedding-event a.map {
   color: inherit;
   border-bottom: 1px dashed;
   text-decoration: none;
   cursor: pointer; }
 
 /* Photo Gallery Style */
-.ww-photo-gallery .ww-category-filter a {
+.wed-photo-gallery .wed-category-filter a {
   display: inline-block;
   margin: 0 10px 6px 0;
   font-size: 14px;
@@ -98,58 +98,58 @@ body {
   letter-spacing: 1px;
   border-radius: 3px; }
 
-.ww-photo-gallery .ww-gallery {
+.wed-photo-gallery .wed-gallery {
   min-height: 500px; }
 
-.ww-photo-gallery .card-columns .card {
+.wed-photo-gallery .card-columns .card {
   border: none;
   margin-bottom: 15px;
   border-radius: none; }
 
 @media (max-width: 992px) {
-  .ww-photo-gallery .card-columns {
+  .wed-photo-gallery .card-columns {
     -moz-column-count: 2;
          column-count: 2; } }
 
 @media (max-width: 576px) {
-  .ww-photo-gallery .card-columns {
+  .wed-photo-gallery .card-columns {
     -moz-column-count: 1;
          column-count: 1; } }
 
 /* RSVP Style */
-.ww-rsvp-detail {
+.wed-rsvp-detail {
   /* background: url("../images/rsvp-img.jpg") no-repeat center center; */
-  background-color: #7e72db;
+  background-color: lavenderblush;
   background-size: cover;
   min-height: 500px;
   position: relative; }
-  .ww-rsvp-detail .ww-rsvp-form {
+  .wed-rsvp-detail .wed-rsvp-form {
     padding-left: 20%; }
     @media (max-width: 768px) {
-      .ww-rsvp-detail .ww-rsvp-form {
+      .wed-rsvp-detail .wed-rsvp-form {
         padding-left: 10%; } }
     @media (max-width: 576px) {
-      .ww-rsvp-detail .ww-rsvp-form {
+      .wed-rsvp-detail .wed-rsvp-form {
         padding-left: 0%; } }
-    .ww-rsvp-detail .ww-rsvp-form .form-control {
+    .wed-rsvp-detail .wed-rsvp-form .form-control {
       background-color: rgba(222, 222, 222, 0.2);
       color: #fff;
       border: 1px solid rgba(255, 255, 255, 0.6); }
-    .ww-rsvp-detail .ww-rsvp-form .form-control::-moz-placeholder {
+    .wed-rsvp-detail .wed-rsvp-form .form-control::-moz-placeholder {
       color: #dedede; }
-    .ww-rsvp-detail .ww-rsvp-form .form-control:-ms-input-placeholder {
+    .wed-rsvp-detail .wed-rsvp-form .form-control:-ms-input-placeholder {
       color: #dedede; }
-    .ww-rsvp-detail .ww-rsvp-form .form-control::placeholder {
+    .wed-rsvp-detail .wed-rsvp-form .form-control::placeholder {
       color: #dedede; }
-    .ww-rsvp-detail .ww-rsvp-form select.form-control option {
+    .wed-rsvp-detail .wed-rsvp-form select.form-control option {
       background: rgba(0, 0, 0, 0.3);
       color: #fff; }
-    .ww-rsvp-detail .ww-rsvp-form .btn-submit {
+    .wed-rsvp-detail .wed-rsvp-form .btn-submit {
       background-color: rgba(245, 138, 119, 0.8);
       padding: 0.45rem 1.5rem;
       border: 0; }
 
-.ww-rsvp-detail:before {
+.wed-rsvp-detail:before {
   content: "";
   background-color: rgba(0, 0, 0, 0.3);
   width: 100%;
@@ -159,17 +159,22 @@ body {
   top: 0; }
 
 /* Footer Style */
-.ww-footer a.credit {
+.wed-footer {
+  background-color: lavenderblush;
+  /* padding: 20px 0;  */
+}
+
+.wed-footer a.credit {
   color: inherit;
   border-bottom: 1px dashed;
   text-decoration: none;
   cursor: pointer; }
 
 /* Common Style */
-.ww-title {
+.wed-title {
   font-family: "Great Vibes", cursive; }
 
-.ww-section {
+.wed-section {
   padding: 100px 0; }
 
 .btn-primary {

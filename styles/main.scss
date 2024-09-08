@@ -8,7 +8,7 @@ body {
 }
 
 /* Home Page Style */
-.ww-home-page {
+.wed-home-page {
   background: url("../images/home-img.jpg") no-repeat center center;
   background-size: cover;
   background-position: 70%;
@@ -16,7 +16,7 @@ body {
   min-height: 480px;
   max-height: 1080px;
 
-  .ww-wedding-announcement {
+  .wed-wedding-announcement {
     width: 100%;
     max-width: 1600px;
     margin: 0 auto;
@@ -25,7 +25,7 @@ body {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
     letter-spacing: 2px;
 
-    .ww-announcement-container {
+    .wed-announcement-container {
       max-width: 600px;
       text-align: center;
       margin-left: 0;
@@ -42,7 +42,7 @@ body {
       }
     }
 
-    .ww-couple-name {
+    .wed-couple-name {
       font-size: 70px;
       @media (max-width: 576px) {
         font-size: 50px;
@@ -51,7 +51,7 @@ body {
   }
 }
 
-.ww-home-page:before {
+.wed-home-page:before {
   content: "";
   background-color: rgba($primary, 0.2);
   width: 100%;
@@ -65,7 +65,7 @@ body {
 }
 
 /* Nav Bar Style */
-.ww-nav-bar {
+.wed-nav-bar {
   .heart {
     fill: darken($primary, 10%);
     position: relative;
@@ -94,7 +94,7 @@ body {
 }
 
 /* Wedding Event Style */
-.ww-wedding-event {
+.wed-wedding-event {
   ul {
     list-style: none;
     padding-left: 0;
@@ -102,7 +102,7 @@ body {
 }
 
 /* Couple Friends Style  */
-.ww-couple-friends {
+.wed-couple-friends {
   .carousel {
     padding: 40px 0;
   }
@@ -119,8 +119,8 @@ body {
 }
 
 /* Photo Gallery Style */
-.ww-photo-gallery {
-  .ww-category-filter {
+.wed-photo-gallery {
+  .wed-category-filter {
     a {
       display: inline-block;
       margin: 0 10px 6px 0;
@@ -131,7 +131,7 @@ body {
     }
   }
 
-  .ww-gallery {
+  .wed-gallery {
     min-height: 500px;
   }
 
@@ -155,13 +155,13 @@ body {
 }
 
 /* RSVP Style */
-.ww-rsvp-detail {
+.wed-rsvp-detail {
   background: url("../images/rsvp-img.jpg") no-repeat center center;
   background-size: cover;
   min-height: 500px;
   position: relative;
 
-  .ww-rsvp-form {
+  .wed-rsvp-form {
     padding-left: 20%;
 
     @media (max-width: 768px) {
@@ -195,7 +195,7 @@ body {
   }
 }
 
-.ww-rsvp-detail:before {
+.wed-rsvp-detail:before {
   content: "";
   background-color: rgba(0, 0, 0, 0.3);
   width: 100%;
@@ -206,7 +206,7 @@ body {
 }
 
 /* Footer Style */
-.ww-footer {
+.wed-footer {
   a.credit {
     color: inherit;
     border-bottom: 1px dashed;
@@ -216,11 +216,11 @@ body {
 }
 
 /* Common Style */
-.ww-title {
+.wed-title {
   font-family: "Great Vibes", cursive;
 }
 
-.ww-section {
+.wed-section {
   padding: 100px 0;
 }
 
