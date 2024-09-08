@@ -115,5 +115,5 @@ $(function(){
 
 function thanks() {
   alert("Cảm ơn bạn đã đến dự đám cưới của chúng mình! Hi vọng được gặp mọi người!");
-  return false;
+  return true;
 }
