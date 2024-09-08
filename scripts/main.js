@@ -106,3 +106,8 @@ $(function(){
 $(function(){
   $("#gallery").load("gallery.html"); 
 });
+
+
+$(function(){
+  $("#rsvp").load("form.html"); 
+});
