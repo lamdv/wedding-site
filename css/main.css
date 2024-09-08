@@ -5,10 +5,10 @@ body {
 .ww-home-page {
   background: url("../images/home-img.jpg") no-repeat center center;
   background-size: cover;
-  background-position: 100%;
+  background-position: 50% 30%;
   height: 100vh;
   min-height: 480px;
-  /* max-height: 1080px;  */
+  max-height: 1080px; 
 }
   .ww-home-page .ww-wedding-announcement {
     width: 100%;
@@ -89,17 +89,6 @@ body {
   text-decoration: none;
   cursor: pointer; }
 
-/* Couple Friends Style  */
-.ww-couple-friends .carousel {
-  padding: 40px 0; }
-
-.ww-couple-friends .carousel-indicators {
-  bottom: 0px; }
-  .ww-couple-friends .carousel-indicators li {
-    background-color: #6c757d; }
-  .ww-couple-friends .carousel-indicators .active {
-    background-color: #f58a77; }
-
 /* Photo Gallery Style */
 .ww-photo-gallery .ww-category-filter a {
   display: inline-block;
@@ -129,7 +118,8 @@ body {
 
 /* RSVP Style */
 .ww-rsvp-detail {
-  background: url("../images/rsvp-img.jpg") no-repeat center center;
+  /* background: url("../images/rsvp-img.jpg") no-repeat center center; */
+  background-color: #7e72db;
   background-size: cover;
   min-height: 500px;
   position: relative; }
@@ -187,3 +177,22 @@ body {
 
 .btn-outline-primary:hover {
   color: #fff; }
+
+/* Dress code color */
+.circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #000; 
+  display: inline-block;
+  margin-right: 5px; }
+.dress-code-white {
+  background-color: #fff; }
+.dress-code-black {
+  background-color: #000; }
+.dress-code-teal {
+  background-color: #008080; }
+
+.left {
+  float: right;
+  text-align: right;}
