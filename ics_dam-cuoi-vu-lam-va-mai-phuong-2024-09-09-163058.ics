@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Stripo.email
+BEGIN:VEVENT
+UID:66df22c27553a
+DTSTAMP:20240909T163058Z
+SUMMARY:Đám cưới Vũ Lâm và Mai Phương
+DESCRIPTION:Kính mời mọi người đến chung vui cùng gia đình ch
+ úng tôi tại nhà hàng Softwater và chứng kiến lễ thành hôn c
+ ủa Vũ Lâm và Mai Phương.
+CLASS:PUBLIC
+DTSTART:20241011T103000Z
+DTEND:20241011T140000Z
+END:VEVENT
+END:VCALENDAR
