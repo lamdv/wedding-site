@@ -198,13 +198,23 @@ body {
   border: 1px solid #000; 
   display: inline-block;
   margin-right: 5px; }
-.dress-code-white {
-  background-color: #fff; }
+
+.dress-code-beige {
+  background-color: #eed9c4; }
+.dress-code-purl {
+  background-color: #9f8dc9; }
+.dress-code-cerlurean {
+  background-color: #4c91e6
+}
 .dress-code-black {
-  background-color: #000; }
-.dress-code-teal {
-  background-color: #008080; }
+  background-color: #000000;
+}
 
 .left {
   float: right;
   text-align: right;}
+
+.vl {
+  background: linear-gradient(gray, gray) no-repeat center/2px 100%;
+  opacity: 50%;
+}
