@@ -11,7 +11,7 @@
             <div class="col">
               <div class="form-group">
                 <label for="name-input">Tên bạn*</label>
-                <input class="form-control" id="name-input" type="text" name="name" required="required"/>
+                <input class="form-control" id="name-input" type="text" name="name" required="required" oninvalid="this.setCustomValidity('Xin hãy điền tên')" oninput="this.setCustomValidity('')"/>
               </div>
             </div>
           </div>
