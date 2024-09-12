@@ -1,7 +1,7 @@
 $(document).ready(function() {
   AOS.init({
     // uncomment below for on-scroll animations to played only once
-    // once: true
+    once: true
   }); // initialize animate on scroll library
 });
 

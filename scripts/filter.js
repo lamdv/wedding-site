@@ -1,7 +1,9 @@
 // Photo Filter
-var activeFilter = "All";
-filterItems(activeFilter)
-$('album-default').click()
+var activeFilter = "";
+
+$(document).ready(function(event){
+    $('.album-default').click()
+})
 
 $(".wed-filter-button").on("click", function(e) {
   // remove btn-primary from all buttons first
@@ -44,7 +46,3 @@ function filterItems(filter) {
     }, 500);
   });
 }
-
-$(document).ready(function(event){
-    $('.album-default').click()
-})
