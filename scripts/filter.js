@@ -2,7 +2,7 @@
 var activeFilter = "";
 
 $(document).ready(function(event){
-    $('.album-default').click()
+    $('#default').click()
 })
 
 $(".wed-filter-button").on("click", function(e) {
