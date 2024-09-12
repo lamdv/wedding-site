@@ -1,7 +1,7 @@
-    form = document.querySelector("#form")
-    submitButton = document.querySelector("#submit")
-    // scriptURL = 'https://script.google.com/macros/s/AKfycbwG9vCMBREFM4suhSiTdVPFu7-F-6JclKyZGGuKjFS-dqaZT6kKXS6r_15kub3YH2R5yw/exec'
-    scriptURL = 'https://api.web3forms.com/submit'
+form = document.querySelector("#form")
+submitButton = document.querySelector("#submit")
+// scriptURL = 'https://script.google.com/macros/s/AKfycbwG9vCMBREFM4suhSiTdVPFu7-F-6JclKyZGGuKjFS-dqaZT6kKXS6r_15kub3YH2R5yw/exec'
+scriptURL = 'https://api.web3forms.com/submit'
 
 form.addEventListener('submit', e => {
     submitButton.disabled = true
