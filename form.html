@@ -1,3 +1,27 @@
+
+<script>
+   const form = document.querySelector("#form")
+   const submitButton = document.querySelector("#submit")
+   const scriptURL = 'https://api.web3forms.com/submit'
+
+   form.addEventListener('submit', e => {
+     submitButton.disabled = true
+     e.preventDefault()
+     let requestBody = new FormData(form)
+     fetch(scriptURL, { method: 'POST', body: requestBody})
+       .then(response => {
+          alert('Success!', response)
+          submitButton.disabled = false
+         })
+       .catch(error => {
+       alert('Error!', error.message)
+         submitButton.disabled = false
+
+       }
+       )
+   })
+</script>
+
 <div class="container" data-aos="zoom-in-up" data-aos-duration="1000">
   <div class="col text-center">
     <h2 class="h1 wed-title pb-3" data-aos="zoom-in-down" data-aos-duration="1000">Chung vui</h2>
@@ -5,8 +29,12 @@
   <div class="row wed-rsvp-form">
     <div class="col-md-10">
       <div class="card-body">
-        <form action="https://formspree.io/f/xanwkvnb" method="POST" target="dummyframe" onsubmit="thanks()" >
-        <form action="" method="get" target="dummyframe">
+        <!-- <form action="https://formspree.io/f/xanwkvnb" method="POST" target="dummyframe" onsubmit="thanks()" > -->
+        <!-- <form action="https://script.google.com/macros/s/AKfycbwwjny3z9udIb8vSG-dHdzXTs53zsNvDS2RQMXmog_3uX0iLrPqNdmNKmvlylas3Z4cJA/exec" method="POST" target="dummyframe" onsubmit="thanks()" class="form"> -->
+        <form action="submit" method="POST" target="dummyframe" id="form">
+          <input type="hidden" name="access_key" value="b1c09a7a-cd28-4686-9691-26cf4236dfd6">
+          <input type="hidden" name="from_name" value="RSVP">
+        <!-- <form action="" method="get" target="dummyframe"> -->
           <div class="row">
             <div class="col">
               <div class="form-group">
@@ -44,7 +72,7 @@
           </div>
           <div class="row">
             <div class="col text-center">
-              <button class="btn btn-primary btn-submit" type="submit" >Gửi</button>
+              <button class="btn btn-primary btn-submit" id="submit" >Gửi</button>
             </div>
           </div>
         </form>        
@@ -53,3 +81,5 @@
   </div>
 </div>
 <iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
+
+<!-- <script src="scripts/form.js?ver=1.1.0"></script> -->

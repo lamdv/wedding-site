@@ -62,7 +62,7 @@ $(".wed-filter-button").on("click", function(e) {
 
 function filterItems(filter) {
   if (filter === activeFilter) {
-    return;
+    return false;
   }
 
   activeFilter = filter;
@@ -112,8 +112,3 @@ $(function(){
   $("#rsvp").load("form.html"); 
 });
 
-
-function thanks() {
-  alert("Cảm ơn bạn đã đến dự đám cưới của chúng mình! Hi vọng được gặp mọi người!");
-  return true;
-}
