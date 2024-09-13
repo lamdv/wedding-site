@@ -19,7 +19,7 @@ body {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
     letter-spacing: 2px; }
     .wed-home-page .wed-wedding-announcement .wed-announcement-container {
-      max-width: 400px;
+      max-width: 600px;
       text-align: center;
       margin-left: 10;
       z-index: 999; }
@@ -31,7 +31,7 @@ body {
           max-height: 250px;
           width: auto; } }
     .wed-home-page .wed-wedding-announcement .wed-couple-name {
-      font-size: 70px; }
+      font-size: 90px; }
       @media (max-width: 576px) {
         .wed-home-page .wed-wedding-announcement .wed-couple-name {
           font-size: 50px; } }
@@ -179,7 +179,9 @@ body {
 
 /* Common Style */
 .wed-title {
-  font-family: "Great Vibes", cursive; }
+  font-family: "Great Vibes", cursive; 
+  
+}
 
 .wed-section {
   padding: 100px 0; }

@@ -48,11 +48,11 @@ function filterItems(filter) {
     
   });
   // shuffle images
-  if (activeFilter === "all") {
-    // shuffleImages($(".wed-gallery .card"), "random");
-    // shuffleImages($(".wed-gallery .card"), "reset");
-    shuffleImages($(".wed-gallery .card"), );
-  }
+  // if (activeFilter === "all") {
+  //   // shuffleImages($(".wed-gallery .card"), "random");
+  //   // shuffleImages($(".wed-gallery .card"), "reset");
+  //   shuffleImages($(".wed-gallery .card"), );
+  // }
 }
 
 function shuffleImages(card, mode) {
