@@ -10,6 +10,11 @@ form.addEventListener('submit', e => {
     let requestBody = new FormData(form)
     if (requestBody.get('rsvp')===null){
         requestBody.set('rsvp', '0')
+        if (requestBody.get('guest') !== null) {
+            alert('Nếu bạn có tham dự, xin hãy chọn lại!')
+            submitButton.disabled = false
+            return;
+        }
         requestBody.set('guest', '0')
     }
     else if (requestBody.get('guest') === null) {
