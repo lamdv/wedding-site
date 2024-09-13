@@ -40,6 +40,7 @@ $("a.smooth-scroll").click(function(event) {
       );
     }
   }
+  $(':focus').blur();
 });
 
 // Light Box

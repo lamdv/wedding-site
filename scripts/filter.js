@@ -44,5 +44,37 @@ function filterItems(filter) {
         card.fadeIn(400);
       }
     }, 500);
+
+    
   });
+  // shuffle images
+  if (activeFilter === "all") {
+    // shuffleImages($(".wed-gallery .card"), "random");
+    // shuffleImages($(".wed-gallery .card"), "reset");
+    shuffleImages($(".wed-gallery .card"), );
+  }
+}
+
+function shuffleImages(card, mode) {
+  var cardColumn = card.closest(".card-columns");
+    var cards = cardColumn.find(".card");
+    if (mode === "reset") {
+      cardColumn.empty().append(cards);
+      return;
+    }
+    if (mode === "random"){
+      cards = cards.sort(function() {
+        return 0.5 - Math.random();
+      });
+      cardColumn.empty().append(cards);
+    }
+    cards.sort(function() {
+      // put an-hoi card first
+      if (card.hasClass("an-hoi")) {
+        return 1;
+      } else {
+        return -1;
+      }
+    });
+    cardColumn.empty().append(cards);
 }
