@@ -28,12 +28,12 @@ form.addEventListener('submit', e => {
             form.reset()
         }
         if (requestBody.get('rsvp') === '1') {
-            // alert('Cảm ơn bạn dành thời gian đến dự đám cưới của chúng mình! Hi vọng được gặp mọi người!', response)
-            window.location.href = "rsvp-yes.html";
+            alert('Cảm ơn bạn dành thời gian đến dự đám cưới của chúng mình! Hi vọng được gặp mọi người!', response)
+            // window.location.href = "rsvp-yes.html";
         }
         else {
-            // alert('Cảm ơn bạn đã thông báo không tham dự! Hẹn gặp vào một dịp khác nhé!', response)
-            window.location.href = "rsvp-no.html";
+            alert('Cảm ơn bạn đã thông báo không tham dự! Hẹn gặp vào một dịp khác nhé!', response)
+            // window.location.href = "rsvp-no.html";
         }
         submitButton.disabled = false
         })
