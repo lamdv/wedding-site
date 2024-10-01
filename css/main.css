@@ -220,3 +220,10 @@ body {
   background: linear-gradient(gray, gray) no-repeat center/2px 100%;
   opacity: 50%;
 }
+.ascii-art {
+  font-family: monospace !important;
+  opacity: 0.5;
+  font-size: 9px;
+  line-height: 100%;
+  /* white-space: pre; */
+}
